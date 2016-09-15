@@ -6,14 +6,45 @@ div.container {
 header{
     padding: 1em;
     color: black;
-    background-color: white;
+    background-color: paleturquoise;
     clear: left;
     text-align: start;
     border: black;
     font-family: "Times New Roman", Times, serif;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a:hover:not(.active) {
+    background-color: powderblue;
+}
+
+.active {
+    background-color: lightskyblue;
+}
+
+li a {
+    display: block;
+    padding: 10px 16px;
+    text-align: center;
+    background-color: #dddddd;
+}
+
 footer {
     text-decoration: blue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
 }
 
 .imageViwer {
@@ -21,21 +52,4 @@ footer {
     color: black;
     column-count: 4;
 }
-nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-}
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
-}
