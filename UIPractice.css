@@ -1,0 +1,41 @@
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header{
+    padding: 1em;
+    color: black;
+    background-color: white;
+    clear: left;
+    text-align: start;
+    border: black;
+    font-family: "Times New Roman", Times, serif;
+}
+footer {
+    text-decoration: blue;
+}
+
+.imageViwer {
+    border: black;
+    color: black;
+    column-count: 4;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
