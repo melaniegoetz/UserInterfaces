@@ -28,27 +28,51 @@ IMG.headDisplayed {
   margin-right: auto;
 }
 
-div.outlineStyle {
-  outline-color: #1b9bff;
-  outline-width: medium;
-  border-top: medium;
-  border-bottom: medium;
-  border-color: black;
-  border-bottom: #2bcdc0;
-}
-
 p.boldText{
   font-weight: bold;
+  font-family: "Raleway", Raleway Bold;
+}
+
+.fontFamily{
+  font-family: "Raleway";
+}
+
+.boldFontFamily{
+  font-family: "Raleway";
 }
 
 .subHeadingDesign{
-  text-decoration: underline;
-  color: darkslategrey;
+  text-decoration: none;
+  font-family: "Raleway";
+  color: slategray;
+  font-size: medium;
+
 }
 
-.fire{
-  text-decoration: underline;
-  color: orangered;
+.sectionBorder {
+  width: auto;
+  height: auto;
+  outline-width: thin;
+  outline-style: solid;
+  outline-color: lightblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
 }
 
+.boxSize{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+li a:hover:not(.active) {
+  font-weight: bold;
+}
+
+li a:not(.active){
+  color: slategray;
+}
+
+.active {
+  font-weight: bold;
+}
