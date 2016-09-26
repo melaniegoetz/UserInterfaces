@@ -3,8 +3,15 @@ div.myHeading {
   height: auto;
   padding-bottom: .5cm;
   padding-top: .5cm;
-  background-color: paleturquoise;
+  background-color: lightskyblue;
   text-align: start;
+  margin:auto;
+}
+
+div.loadMore {
+  display: block;
+  position:relative;
+  text-align: center;
   margin:auto;
 }
 
@@ -19,6 +26,29 @@ IMG.headDisplayed {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+div.outlineStyle {
+  outline-color: #1b9bff;
+  outline-width: medium;
+  border-top: medium;
+  border-bottom: medium;
+  border-color: black;
+  border-bottom: #2bcdc0;
+}
+
+p.boldText{
+  font-weight: bold;
+}
+
+.subHeadingDesign{
+  text-decoration: underline;
+  color: darkslategrey;
+}
+
+.fire{
+  text-decoration: underline;
+  color: orangered;
 }
 
 
