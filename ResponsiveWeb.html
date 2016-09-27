@@ -9,11 +9,14 @@
     <!-- THIS WEBSITE IS PROBLEM 2 for USER INTERFACES -->
 
     <!-- My style sheet -->
-    <link href="Website2Style.css" rel="stylesheet">
+    <link href="ResponsiveWebStyle.css" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- W3 responsiveness -->
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
 </head>
 <body>
@@ -23,23 +26,14 @@
 </div>
 <nav>
     <div class="container">
-
-        <div class="collapse navbar-collapse hidden-xs">
-            <ul class="nav navbar-nav">
-                <li><a href="#">  <img class=smallImage src="http://i66.tinypic.com/4k8hw2.jpg"> </a> </li>
-                <li class = "subHeadingDesign"><a href="#">johndoe44</a> </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right hidden-xs">
-                <li class="active subHeadingDesign"><a href="#">My Feed</a> </li>
-                <li class="dropdown subHeadingDesign"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">Settings <span class="caret"></span></a>
-                    <ul class="dropdown-menu subHeadingDesign">
-                        <li><a href="#">My Profile</a> </li>
-                        <li><a href="#">Privacy</a> </li>
-                        <li><a href="#">Logout</a> </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+        <ul class="w3-navbar">
+            <li class ="hidden-xs subHeadingDesign"><a href="#">  <img class=smallImage src="http://i66.tinypic.com/4k8hw2.jpg"> </a> </li>
+            <li class ="hidden-xs subHeadingDesign"><a href="#">johndoe44</a> </li>
+            <li class ="visible-xs subHeadingDesign"><a href="#">My Profile</a> </li>
+            <li class="w3-right subHeadingDesign hidden-xs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">Settings <span class="caret"></span></a>
+            <li class="w3-right subHeadingDesign visible-xs"><a href="#">Settings</a></li>
+            <li class="w3-right subHeadingDesign active"><a href="#">My Feed</a></li>
+        </ul>
     </div>
 </nav>
 <hr>
@@ -48,7 +42,7 @@
     <div class="row text-center">
         <h2 class = "subHeadingDesign">Trending Artists in Your Network</h2>
         <div class="boxSize">
-            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
                 <div class="thumbnail"> <img src="http://edmchicago.com/wp-content/uploads/2015/08/ile-soniq-day-1-50-of-821-1366x800.jpg" alt="Thumbnail Image 1" class="img-responsive">
                     <div class="caption">
                         <h3>The Chainsmokers</h3>
@@ -64,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
                 <div class="thumbnail"> <img src="http://odesza.com/wp-content/uploads/2015/04/Site-Image.jpg" alt="Thumbnail Image 1" class="img-responsive">
                     <div class="caption">
                         <h3>ODESZA</h3>
@@ -79,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
                 <div class="thumbnail"> <img src="https://i.ytimg.com/vi/4vgZMbpEj2M/maxresdefault.jpg" alt="Thumbnail Image 1" class="img-responsive">
                     <div class="caption">
                         <h3>Chance the Rapper</h3>
@@ -98,7 +92,7 @@
     </div>
     <div class="boxSize">
         <div class="row text-center">
-            <div class="col-sm-4 col-md-4 col-lg-4 col-xs-12">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xs-12">
                 <div class="thumbnail"> <img src="http://www.mtv.com/crop-images/2013/09/12/young_the_giant_credit_pieter_van_hattem.jpg" alt="Thumbnail Image 1" class="img-responsive">
                     <div class="caption">
                         <h3>Young the Giant</h3>
@@ -114,7 +108,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="thumbnail"> <img src="https://media.giphy.com/media/m07UQwOt30eA0/giphy.gif" alt="Thumbnail Image 1" class="img-responsive">
                     <div class="caption">
                         <h3>Tame Impala</h3>
@@ -129,7 +123,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="thumbnail"> <img src="http://voxatl.com/wp-content/uploads/2016/06/Jillian-Banks-HD-Images.jpg" alt="Thumbnail Image 1" class="img-responsive">
                     <div class="caption">
                         <h3>Banks</h3>
@@ -148,7 +142,7 @@
     </div>
     <div class="boxSize">
         <div class="row text-center">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="thumbnail"> <img src="http://chuffmedia.com/images/artist-images/252/haim_photo_3.jpg" alt="Thumbnail Image 1" class="img-responsive">
                     <div class="caption">
                         <h3>Haim</h3>
@@ -163,7 +157,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="thumbnail"> <img src="https://theknockturnal.com/wp-content/uploads/2016/08/flume_og.jpg" alt="Thumbnail Image 1" class="img-responsive">
                     <div class="caption">
                         <h3>Flume</h3>
@@ -178,7 +172,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="thumbnail"> <img src="http://www.indieshuffle.com/bundles/webbundle/images/artwork/thumb_tweet_image/chet-faker-ws-1440.jpg" alt="Thumbnail Image 1" class="img-responsive">
                     <div class="caption">
                         <h3>Chet Faker</h3>
