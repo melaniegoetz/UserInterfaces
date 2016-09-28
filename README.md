@@ -1,8 +1,8 @@
 # UserInterfaces
 Assignment 1
 
-First problem for UserInterfaces is "Website1.HTML" and "Website1.CSS"
+#1) for UserInterfaces Assignment 1 is "Website1.HTML" and "Website1.CSS"
 
-Second problem is "Website2.HTML" and "Website2.CSS"
+#2) is "Website2.HTML" and "Website2.CSS"
 
-Third problem is "ResponsiveWeb.HTML" and "ResponsiveWebStyle.CSS" and is an adaption of website 3 w/ responsiveness to different browser sizes (Desktop, tablet, mobile).
+#3) is "ResponsiveWeb.HTML" and "ResponsiveWebStyle.CSS" and is an adaption of website 2 w/ responsiveness to different browser sizes (Desktop, tablet, mobile).
